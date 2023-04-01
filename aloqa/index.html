@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css1/bootstrap.css">
+    <style>
+        .boshi{
+            box-shadow: 0 0 50px black;
+        }
+        .soya{
+        height:500px;
+        box-shadow: 0 0 20px gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row  bg-primary z-1 position-sticky top-0 justify-content-evenly align-items-center  boshi" style="height: 100px;">
+            <div class="col-2" style="height: 50px;">
+                <h1 class="text-light text-center">
+                    <i class="fa-solid fa-b fa-bounce fa-2xl"></i>
+                </h1>
+            </div>
+            <div class="col">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tovar nomini kiriting..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Qidirish</button>
+                </form>
+            </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg bg-body-primary">
+                    <div class="container-fluid">
+                      <a class="nav-link " aria-current="page" href="../index.html">Bosh sahifa</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../bizhaqimizda/index.html">Biz haqimizda</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../mahsulotlar/index.html">Mahsulotlar</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="../aloqa/index.html">Aloqa</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <h1 class="text-center text-primary border-bottom border-5 border-primary" style="margin-top: 20px;">Aloqa</h1>
+            <div class="col-5 soya rounded-4">
+              <form>
+                <div class="mb-3" style="margin-top: 20px;">
+                  <label for="exampleInputEmail1" class="form-label">Ism</label>
+                  <input type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Telefon nomer</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">E-pochta</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="submit">Jo'natish</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="row" style="height: 250px;background-color: #2ea2cc;margin-top: 30px;">
+            <div class="col-12">
+              <div class="row justify-content-evenly" style="margin-top: 20px;">
+                <div class="col-4 ">
+                  <h3 class="text-center text-light">Biz bilan aloqa</h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-square-phone"> </i> <span class="fs-5">+998 71 777 77 77</span></h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-envelope"> </i> <span class="fs-5">info@texnika.uz</span></h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-location-dot"> </i> <span class="fs-5">Marg'ilon,Farg'ona viloyati</span></h3>
+                </div>
+                <div class="col-3 d-flex" style="flex-wrap: wrap; justify-content: space-evenly;">
+                  <h3 class="text-center text-light">Biz ijtimoiy tarmoqlarda:</h3>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-telegram"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

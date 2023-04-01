@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahsulotlar</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css1/bootstrap.css">
+    <style>
+        .boshi{
+            box-shadow: 0 0 50px black;
+        }
+        .card-text span{
+            text-decoration: line-through red;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row  bg-primary z-1 position-sticky top-0 justify-content-evenly align-items-center  boshi" style="height: 100px;">
+            <div class="col-2" style="height: 50px;">
+                <h1 class="text-light text-center">
+                    <i class="fa-solid fa-b fa-bounce fa-2xl"></i>
+                </h1>
+            </div>
+            <div class="col">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tovar nomini kiriting..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Qidirish</button>
+                </form>
+            </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg bg-body-primary">
+                    <div class="container-fluid">
+                      <a class="nav-link" aria-current="page" href="../index.html">Bosh sahifa</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../bizhaqimizda/index.html">Biz haqimizda</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="../mahsulotlar/index.html">Mahsulotlar</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../aloqa/index.html">Aloqa</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row" style="height: 1500px;">
+            <h1 class="text-center border-bottom text-primary border-primary border-5">Tovarlar</h1>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/t2.png" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Televizor <span class="badge bg-danger">20%</span></h5>
+                  <p class="card-text"><span>7 000 000</span><br> 5 600 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/no.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Noutbok <span class="badge bg-danger">10%</span></h5>
+                  <p class="card-text"><span>8 000 000</span><br>7 200 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">HP Noutbuki</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">HP 250 G8 (2R9H3EA)</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Noutbuk turi:</dt>
+                            <dd class="col-sm-9"> Ofis uchun</dd>
+                          
+                            <dt class="col-sm-3">Ekranning diagonali:</dt>
+                            <dd class="col-sm-9"> 15,6" (39,6 см)</dd>
+  
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">10%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">7 200 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/ki.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kir Yuvish mashinasi <span class="badge bg-danger">25%</span></h5>
+                  <p class="card-text"><span>6 000 000</span><br> 5 900 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Artel Kir yuvish mashinasi</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">8K 400-141l</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Kilogrami:</dt>
+                            <dd class="col-sm-9">8</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">25%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 900 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/daz.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dazmol <span class="badge bg-danger">15%</span></h5>
+                  <p class="card-text"><span>400 000</span><br>340 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/ble.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blender <span class="badge bg-danger">20%</span></h5>
+                  <p class="card-text"><span>500 000</span><br>400 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/go'.jpeg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Go'sht maydalagich<span class="badge bg-danger">30%</span></h5>
+                  <p class="card-text"><span>700 000</span><br>490 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/kon.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Konditsioner <span class="badge bg-danger">15%</span></h5>
+                  <p class="card-text"><span>4 000 000</span><br>3 400 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/muz.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Muzlatgich<span class="badge bg-danger">20%</span></h5>
+                  <p class="card-text"><span>5 000 000</span><br>4 000 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../rasmlar/gaz.jpg" class="card-img-top border-bottom" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gaz Plitasi<span class="badge bg-danger">30%</span></h5>
+                  <p class="card-text"><span>2 500 000</span><br>1 800 000</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ma'lumot
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung Televizor</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <dl class="row">
+                            <dt class="col-sm-3">Modeli:</dt>
+                            <dd class="col-sm-9">UE43AU7100</dd>
+                          
+                            <dt class="col-sm-3">Kafolat:</dt>
+                            <dd class="col-sm-9">3 yil</dd>
+  
+                            <dt class="col-sm-3">Razmeri:</dt>
+                            <dd class="col-sm-9">43</dd>
+                          
+                            <dt class="col-sm-3 text-truncate">Chegirma:</dt>
+                            <dd class="col-sm-9"><span class="badge bg-danger">20%</span></dd>
+  
+                            <dt class="col-sm-3">Narxi:</dt>
+                            <dd class="col-sm-9">5 600 000</dd>
+                          </dl>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../batafsil/index.html" class="btn btn-primary">Batafsil...</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row" style="height: 250px;background-color: #2ea2cc;margin-top: 30px;">
+            <div class="col-12">
+              <div class="row justify-content-evenly" style="margin-top: 20px;">
+                <div class="col-4 ">
+                  <h3 class="text-center text-light">Biz bilan aloqa</h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-square-phone"> </i> <span class="fs-5">+998 71 777 77 77</span></h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-envelope"> </i> <span class="fs-5">info@texnika.uz</span></h3>
+                  <h3 class="text-light fs-4"><i class="fa-solid fa-location-dot"> </i> <span class="fs-5">Marg'ilon,Farg'ona viloyati</span></h3>
+                </div>
+                <div class="col-3 d-flex" style="flex-wrap: wrap; justify-content: space-evenly;">
+                  <h3 class="text-center text-light">Biz ijtimoiy tarmoqlarda:</h3>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-telegram"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="#" class="text-light fs-1"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
